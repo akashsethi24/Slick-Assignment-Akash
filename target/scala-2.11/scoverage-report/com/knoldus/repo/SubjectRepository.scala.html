@@ -1,0 +1,1172 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/repo/SubjectRepository.scala.html
+        </title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus.repo
+</span>2 <span style=''>
+</span>3 <span style=''>import com.knoldus.connection.DBComponent
+</span>4 <span style=''>import com.knoldus.models.Subject
+</span>5 <span style=''>
+</span>6 <span style=''>import scala.concurrent.Future
+</span>7 <span style=''>
+</span>8 <span style=''>/**
+</span>9 <span style=''>  * Created by akash on 7/3/16.
+</span>10 <span style=''>  */
+</span>11 <span style=''>
+</span>12 <span style=''>
+</span>13 <span style=''>trait SubjectConf {
+</span>14 <span style=''>
+</span>15 <span style=''>  this: DBComponent =>
+</span>16 <span style=''>  import driver.api._
+</span>17 <span style=''>
+</span>18 <span style=''>  val subjectTable = TableQuery[SubjectTable]
+</span>19 <span style=''>
+</span>20 <span style=''>  class SubjectTable(tag: Tag) extends Table[Subject](tag, "subject") {
+</span>21 <span style=''>
+</span>22 <span style=''>    val sub_id = </span><span style='background: #AEF1AE'>column[Int]("sub_id", O.PrimaryKey, O.AutoInc)</span><span style=''>
+</span>23 <span style=''>    val sub_name = </span><span style='background: #AEF1AE'>column[String]("sub_name", O.SqlType("VARCHAR(20)"))</span><span style=''>
+</span>24 <span style=''>
+</span>25 <span style=''>    def * = </span><span style='background: #AEF1AE'>(sub_id, sub_name) <>(Subject.tupled, Subject.unapply)</span><span style=''>
+</span>26 <span style=''>  }
+</span>27 <span style=''>
+</span>28 <span style=''>}
+</span>29 <span style=''>
+</span>30 <span style=''>trait SubjectRepository extends SubjectConf{
+</span>31 <span style=''>
+</span>32 <span style=''>  this: DBComponent =>
+</span>33 <span style=''>  import driver.api._
+</span>34 <span style=''>
+</span>35 <span style=''>  def insertSubject():Future[Int] = {
+</span>36 <span style=''>
+</span>37 <span style=''>    val insertSubject = </span><span style='background: #AEF1AE'>subjectTable += Subject(1, "C++")</span><span style=''>
+</span>38 <span style=''>    </span><span style='background: #AEF1AE'>db.run(insertSubject)</span><span style=''>
+</span>39 <span style=''>  }
+</span>40 <span style=''>
+</span>41 <span style=''>  def deleteSubject(id: Int):Future[Int] = {
+</span>42 <span style=''>
+</span>43 <span style=''>      val deleteSubject = </span><span style='background: #AEF1AE'>subjectTable.filter(_.sub_id === id)</span><span style=''>
+</span>44 <span style=''>      val deleteAction = </span><span style='background: #AEF1AE'>deleteSubject.delete</span><span style=''>
+</span>45 <span style=''>      </span><span style='background: #AEF1AE'>db.run(deleteAction)</span><span style=''>
+</span>46 <span style=''>  }
+</span>47 <span style=''>
+</span>48 <span style=''>  def updateSubject(id:Int,updatedName:String):Future[Int] = {
+</span>49 <span style=''>
+</span>50 <span style=''>    val updateSubject = </span><span style='background: #AEF1AE'>for{sub <- subjectTable if sub.sub_id === id }yield sub.sub_name</span><span style=''>
+</span>51 <span style=''>    val updateAction = </span><span style='background: #AEF1AE'>updateSubject.update(updatedName)</span><span style=''>
+</span>52 <span style=''>    </span><span style='background: #AEF1AE'>db.run(updateAction)</span><span style=''>
+</span>53 <span style=''>
+</span>54 <span style=''>  }
+</span>55 <span style=''>
+</span>56 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          226
+        </td>
+        <td>
+          382
+          -
+          428
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.Table.column
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectTable.this.column[Int](&quot;sub_id&quot;, SubjectTable.this.O.PrimaryKey, SubjectTable.this.O.AutoInc)(SubjectConf.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          223
+        </td>
+        <td>
+          404
+          -
+          416
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.ColumnOptions.PrimaryKey
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectTable.this.O.PrimaryKey
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          225
+        </td>
+        <td>
+          393
+          -
+          393
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectConf.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          222
+        </td>
+        <td>
+          394
+          -
+          402
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;sub_id&quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          224
+        </td>
+        <td>
+          418
+          -
+          427
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.ColumnOptions.AutoInc
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectTable.this.O.AutoInc
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          227
+        </td>
+        <td>
+          463
+          -
+          473
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;sub_name&quot;
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          229
+        </td>
+        <td>
+          462
+          -
+          462
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.stringColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectConf.this.driver.api.stringColumnType
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          228
+        </td>
+        <td>
+          475
+          -
+          499
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.profile.SqlTableComponent.ColumnOptions.SqlType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectTable.this.O.SqlType(&quot;VARCHAR(20)&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          230
+        </td>
+        <td>
+          448
+          -
+          500
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.Table.column
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectTable.this.column[String](&quot;sub_name&quot;, SubjectTable.this.O.SqlType(&quot;VARCHAR(20)&quot;))(SubjectConf.this.driver.api.stringColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          236
+        </td>
+        <td>
+          533
+          -
+          533
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectConf.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          235
+        </td>
+        <td>
+          552
+          -
+          567
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.models.Subject.unapply
+        </td>
+        <td style="background: #AEF1AE">
+          com.knoldus.models.Subject.unapply(x$0)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          238
+        </td>
+        <td>
+          533
+          -
+          533
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.stringColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectConf.this.driver.api.stringColumnType
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          232
+        </td>
+        <td>
+          523
+          -
+          531
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectConf.SubjectTable.sub_name
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectTable.this.sub_name
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          241
+        </td>
+        <td>
+          514
+          -
+          568
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ToShapedValue.&lt;&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectConf.this.driver.api.anyToToShapedValue[(slick.lifted.Rep[Int], slick.lifted.Rep[String])](scala.Tuple2.apply[slick.lifted.Rep[Int], slick.lifted.Rep[String]](SubjectTable.this.sub_id, SubjectTable.this.sub_name)).&lt;&gt;[com.knoldus.models.Subject, (Int, String)](com.knoldus.models.Subject.tupled, {
+  ((x$0: com.knoldus.models.Subject) =&gt; com.knoldus.models.Subject.unapply(x$0))
+})((ClassTag.apply[com.knoldus.models.Subject](classOf[com.knoldus.models.Subject]): scala.reflect.ClassTag[com.knoldus.models.Subject]), lifted.this.Shape.tuple2Shape[slick.lifted.FlatShapeLevel, slick.lifted.Rep[Int], slick.lifted.Rep[String], Int, String, slick.lifted.Rep[Int], slick.lifted.Rep[String]](lifted.this.Shape.repColumnShape[Int, Nothing](SubjectConf.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[String, Nothing](SubjectConf.this.driver.api.stringColumnType)))
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          240
+        </td>
+        <td>
+          533
+          -
+          533
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.TupleShapeImplicits.tuple2Shape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.tuple2Shape[slick.lifted.FlatShapeLevel, slick.lifted.Rep[Int], slick.lifted.Rep[String], Int, String, slick.lifted.Rep[Int], slick.lifted.Rep[String]](lifted.this.Shape.repColumnShape[Int, Nothing](SubjectConf.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[String, Nothing](SubjectConf.this.driver.api.stringColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          234
+        </td>
+        <td>
+          536
+          -
+          550
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.Function2.tupled
+        </td>
+        <td style="background: #AEF1AE">
+          com.knoldus.models.Subject.tupled
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          243
+        </td>
+        <td>
+          514
+          -
+          568
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ProvenShape.proveShapeOf
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.ProvenShape.proveShapeOf[slick.lifted.MappedProjection[com.knoldus.models.Subject,(Int, String)], com.knoldus.models.Subject](SubjectConf.this.driver.api.anyToToShapedValue[(slick.lifted.Rep[Int], slick.lifted.Rep[String])](scala.Tuple2.apply[slick.lifted.Rep[Int], slick.lifted.Rep[String]](SubjectTable.this.sub_id, SubjectTable.this.sub_name)).&lt;&gt;[com.knoldus.models.Subject, (Int, String)](com.knoldus.models.Subject.tupled, {
+  ((x$0: com.knoldus.models.Subject) =&gt; com.knoldus.models.Subject.unapply(x$0))
+})((ClassTag.apply[com.knoldus.models.Subject](classOf[com.knoldus.models.Subject]): scala.reflect.ClassTag[com.knoldus.models.Subject]), lifted.this.Shape.tuple2Shape[slick.lifted.FlatShapeLevel, slick.lifted.Rep[Int], slick.lifted.Rep[String], Int, String, slick.lifted.Rep[Int], slick.lifted.Rep[String]](lifted.this.Shape.repColumnShape[Int, Nothing](SubjectConf.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[String, Nothing](SubjectConf.this.driver.api.stringColumnType))))(lifted.this.MappedProjection.mappedProjectionShape[slick.lifted.FlatShapeLevel, com.knoldus.models.Subject, (Int, String)])
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          237
+        </td>
+        <td>
+          533
+          -
+          533
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.repColumnShape[Int, Nothing](SubjectConf.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          231
+        </td>
+        <td>
+          515
+          -
+          521
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectConf.SubjectTable.sub_id
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectTable.this.sub_id
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          239
+        </td>
+        <td>
+          533
+          -
+          533
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.repColumnShape[String, Nothing](SubjectConf.this.driver.api.stringColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          242
+        </td>
+        <td>
+          533
+          -
+          533
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          slick.lifted.MappedProjection.mappedProjectionShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.MappedProjection.mappedProjectionShape[slick.lifted.FlatShapeLevel, com.knoldus.models.Subject, (Int, String)]
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          233
+        </td>
+        <td>
+          514
+          -
+          532
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Tuple2.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Tuple2.apply[slick.lifted.Rep[Int], slick.lifted.Rep[String]](SubjectTable.this.sub_id, SubjectTable.this.sub_name)
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          245
+        </td>
+        <td>
+          748
+          -
+          765
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.models.Subject.apply
+        </td>
+        <td style="background: #AEF1AE">
+          com.knoldus.models.Subject.apply(1, &quot;C++&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          244
+        </td>
+        <td>
+          732
+          -
+          744
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectConf.subjectTable
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.subjectTable
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          246
+        </td>
+        <td>
+          732
+          -
+          765
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.SimpleInsertActionComposer.+=
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.queryInsertActionExtensionMethods[SubjectRepository.this.SubjectTable#TableElementType, Seq](SubjectRepository.this.subjectTable).+=(com.knoldus.models.Subject.apply(1, &quot;C++&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          38
+        </td>
+        <td>
+          247
+        </td>
+        <td>
+          770
+          -
+          791
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.db.run[Int](insertSubject)
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          254
+        </td>
+        <td>
+          889
+          -
+          904
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ColumnExtensionMethods.===
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.columnExtensionMethods[Int](x$1.sub_id)(SubjectRepository.this.driver.api.intColumnType).===[Int, Boolean](SubjectRepository.this.driver.api.valueToConstColumn[Int](id)(SubjectRepository.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubjectRepository.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          253
+        </td>
+        <td>
+          898
+          -
+          898
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.OptionMapper2.getOptionMapper2TT
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubjectRepository.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          256
+        </td>
+        <td>
+          869
+          -
+          905
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.Query.filter
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.subjectTable.filter[slick.lifted.Rep[Boolean]](((x$1: SubjectRepository.this.SubjectTable) =&gt; SubjectRepository.this.driver.api.columnExtensionMethods[Int](x$1.sub_id)(SubjectRepository.this.driver.api.intColumnType).===[Int, Boolean](SubjectRepository.this.driver.api.valueToConstColumn[Int](id)(SubjectRepository.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubjectRepository.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition)
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          250
+        </td>
+        <td>
+          902
+          -
+          902
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          249
+        </td>
+        <td>
+          891
+          -
+          891
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          252
+        </td>
+        <td>
+          898
+          -
+          898
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          255
+        </td>
+        <td>
+          888
+          -
+          888
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.lifted.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          248
+        </td>
+        <td>
+          889
+          -
+          897
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectConf.SubjectTable.sub_id
+        </td>
+        <td style="background: #AEF1AE">
+          x$1.sub_id
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          251
+        </td>
+        <td>
+          902
+          -
+          904
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalProfile.API.valueToConstColumn
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.valueToConstColumn[Int](id)(SubjectRepository.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          44
+        </td>
+        <td>
+          257
+        </td>
+        <td>
+          931
+          -
+          951
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.DeleteActionExtensionMethodsImpl.delete
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.queryDeleteActionExtensionMethods[Seq](deleteSubject).delete
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          258
+        </td>
+        <td>
+          958
+          -
+          978
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.db.run[Int](deleteAction)
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          262
+        </td>
+        <td>
+          1114
+          -
+          1116
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalProfile.API.valueToConstColumn
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.valueToConstColumn[Int](id)(SubjectRepository.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          265
+        </td>
+        <td>
+          1099
+          -
+          1116
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ColumnExtensionMethods.===
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.columnExtensionMethods[Int](sub.sub_id)(SubjectRepository.this.driver.api.intColumnType).===[Int, Boolean](SubjectRepository.this.driver.api.valueToConstColumn[Int](id)(SubjectRepository.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubjectRepository.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          259
+        </td>
+        <td>
+          1099
+          -
+          1109
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectConf.SubjectTable.sub_id
+        </td>
+        <td style="background: #AEF1AE">
+          sub.sub_id
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          268
+        </td>
+        <td>
+          1080
+          -
+          1080
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.stringColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.stringColumnType
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          267
+        </td>
+        <td>
+          1124
+          -
+          1136
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectConf.SubjectTable.sub_name
+        </td>
+        <td style="background: #AEF1AE">
+          sub.sub_name
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          270
+        </td>
+        <td>
+          1072
+          -
+          1136
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.Query.map
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.subjectTable.withFilter[slick.lifted.Rep[Boolean]](((sub: SubjectRepository.this.SubjectTable) =&gt; SubjectRepository.this.driver.api.columnExtensionMethods[Int](sub.sub_id)(SubjectRepository.this.driver.api.intColumnType).===[Int, Boolean](SubjectRepository.this.driver.api.valueToConstColumn[Int](id)(SubjectRepository.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubjectRepository.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition).map[slick.lifted.Rep[String], slick.lifted.Rep[String], String](((sub: SubjectRepository.this.SubjectTable) =&gt; sub.sub_name))(lifted.this.Shape.repColumnShape[String, Nothing](SubjectRepository.this.driver.api.stringColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          261
+        </td>
+        <td>
+          1114
+          -
+          1114
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          264
+        </td>
+        <td>
+          1110
+          -
+          1110
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.OptionMapper2.getOptionMapper2TT
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubjectRepository.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          263
+        </td>
+        <td>
+          1110
+          -
+          1110
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          266
+        </td>
+        <td>
+          1083
+          -
+          1083
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.lifted.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          260
+        </td>
+        <td>
+          1103
+          -
+          1103
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          269
+        </td>
+        <td>
+          1080
+          -
+          1080
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.repColumnShape[String, Nothing](SubjectRepository.this.driver.api.stringColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          51
+        </td>
+        <td>
+          271
+        </td>
+        <td>
+          1160
+          -
+          1193
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.UpdateActionExtensionMethodsImpl.update
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.driver.api.queryUpdateActionExtensionMethods[String, Seq](updateSubject).update(updatedName)
+        </td>
+      </tr><tr>
+        <td>
+          52
+        </td>
+        <td>
+          272
+        </td>
+        <td>
+          1198
+          -
+          1218
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectRepository.this.db.run[Int](updateAction)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

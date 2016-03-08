@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mStudentSubjectRepoSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Insert Statement for Map table[0m[0m
+[0m[[0minfo[0m] [0m[32m- Update Statement for Map table[0m[0m
+[0m[[0minfo[0m] [0m[32m- Delete Statement for Map table[0m[0m
+[0m[[0minfo[0m] [0m[32m- Get List  for StudentBySubject table[0m[0m
+[0m[[0minfo[0m] [0m[32m- Get List  for SubjectByStudent table[0m[0m

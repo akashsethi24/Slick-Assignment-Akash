@@ -1,0 +1,974 @@
+<scoverage 
+statement-count="272" statements-invoked="243" statement-rate="89.34" branch-rate="100.00" version="1.0" timestamp="1457414036540">
+    <packages>
+        <package name="com.knoldus.connection" statement-count="7" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="PostgresComponent" filename="com/knoldus/connection/PostgresComponent.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.connection/PostgresComponent/&lt;none&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresComponent" class-type="Trait" top-level-class="PostgresComponent" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/connection/PostgresComponent.scala" method="&lt;none&gt;" start="208" end="233" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresComponent" class-type="Trait" top-level-class="PostgresComponent" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/connection/PostgresComponent.scala" method="&lt;none&gt;" start="135" end="162" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="PostgresDB" filename="com/knoldus/connection/PostgresComponent.scala" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.connection/PostgresDB/&lt;none&gt;" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/connection/PostgresComponent.scala" method="&lt;none&gt;" start="355" end="355" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/connection/PostgresComponent.scala" method="&lt;none&gt;" start="355" end="355" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/connection/PostgresComponent.scala" method="&lt;none&gt;" start="346" end="376" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/connection/PostgresComponent.scala" method="&lt;none&gt;" start="365" end="375" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/connection/PostgresComponent.scala" method="&lt;none&gt;" start="355" end="355" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.knoldus.repo" statement-count="265" statements-invoked="243" statement-rate="91.70">
+            <classes>
+                <class 
+                name="StudentTable" filename="com/knoldus/repo/StudentRepository.scala" statement-count="29" statements-invoked="29" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/StudentTable/*" statement-count="16" statements-invoked="16" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="604" end="613" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="634" end="649" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="594" end="602" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="618" end="632" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="585" end="650" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="585" end="650" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="586" end="592" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="585" end="614" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="*" start="615" end="615" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentTable/&lt;none&gt;" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="391" end="399" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="533" end="544" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="390" end="390" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="518" end="571" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="472" end="496" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="460" end="470" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="445" end="497" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="415" end="424" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="532" end="532" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="401" end="413" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="546" end="570" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="379" end="425" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentTable" class-type="Class" top-level-class="StudentConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="&lt;none&gt;" start="459" end="459" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SubjectRepository" filename="com/knoldus/repo/SubjectRepository.scala" statement-count="29" statements-invoked="29" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/SubjectRepository/updateSubject" statement-count="14" statements-invoked="14" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1114" end="1116" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1160" end="1193" line="51" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1099" end="1116" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1099" end="1109" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1080" end="1080" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1124" end="1136" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1072" end="1136" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1114" end="1114" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1110" end="1110" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1110" end="1110" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1198" end="1218" line="52" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1083" end="1083" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1103" end="1103" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="updateSubject" start="1080" end="1080" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectRepository/deleteSubject" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="889" end="904" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="898" end="898" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="869" end="905" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="902" end="902" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="891" end="891" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="958" end="978" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="898" end="898" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="888" end="888" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="931" end="951" line="44" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="889" end="897" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="deleteSubject" start="902" end="904" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectRepository/insertSubject" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="insertSubject" start="748" end="765" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="insertSubject" start="732" end="744" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="insertSubject" start="770" end="791" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectRepository" class-type="Trait" top-level-class="SubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="insertSubject" start="732" end="765" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="StudentSubjectRepository" filename="com/knoldus/repo/StudentSubjectRepository.scala" statement-count="103" statements-invoked="103" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectRepository/updateStatement" statement-count="14" statements-invoked="14" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1200" end="1200" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1214" end="1224" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1165" end="1224" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1204" end="1204" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1197" end="1197" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1173" end="1173" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1200" end="1200" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1285" end="1305" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1176" end="1176" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1193" end="1206" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1173" end="1173" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1193" end="1199" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1204" end="1206" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="updateStatement" start="1250" end="1278" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectRepository/getSubjectByStudent" statement-count="37" statements-invoked="37" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2000" end="2000" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2062" end="2062" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2116" end="2116" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2023" end="2038" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2063" end="2071" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2023" end="2031" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2045" end="2058" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2154" end="2170" line="73" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2201" end="2224" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2117" end="2128" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2129" end="2129" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2000" end="2000" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2036" end="2036" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2076" end="2084" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2063" end="2084" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2116" end="2116" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2000" end="2000" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2032" end="2032" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2032" end="2032" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2117" end="2141" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2000" end="2000" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2072" end="2072" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2116" end="2116" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="1961" end="2189" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2022" end="2022" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2100" end="2112" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2153" end="2189" line="73" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2025" end="2025" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2065" end="2065" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2133" end="2141" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2194" end="2225" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2122" end="2122" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2172" end="2188" line="73" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2036" end="2038" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2000" end="2000" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2072" end="2072" line="71" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getSubjectByStudent" start="2129" end="2129" line="72" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectRepository/insertStatement" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="insertStatement" start="1013" end="1026" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="insertStatement" start="1050" end="1073" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="insertStatement" start="1013" end="1043" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="insertStatement" start="1030" end="1043" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectRepository/deleteStatement" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1405" end="1409" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1443" end="1463" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1414" end="1416" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1410" end="1410" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1384" end="1417" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1414" end="1414" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1470" end="1490" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1407" end="1407" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1410" end="1410" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1404" end="1404" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="deleteStatement" start="1405" end="1416" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectRepository/getStudentBySubject" statement-count="37" statements-invoked="37" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1748" end="1748" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1593" end="1821" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1654" end="1654" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1732" end="1744" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1785" end="1821" line="63" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1697" end="1697" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1765" end="1773" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1657" end="1657" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1826" end="1857" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1804" end="1820" line="63" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1754" end="1754" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1668" end="1670" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1704" end="1704" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1761" end="1761" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1632" end="1632" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1632" end="1632" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1694" end="1694" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1748" end="1748" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1655" end="1670" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1655" end="1663" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1695" end="1703" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1632" end="1632" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1786" end="1802" line="63" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1677" end="1690" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1833" end="1856" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1749" end="1760" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1761" end="1761" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1632" end="1632" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1668" end="1668" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1708" end="1716" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1748" end="1748" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1664" end="1664" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1695" end="1716" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1632" end="1632" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1664" end="1664" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1749" end="1773" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectRepository" class-type="Trait" top-level-class="StudentSubjectRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="getStudentBySubject" start="1704" end="1704" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="StudentSubjectTable" filename="com/knoldus/repo/StudentSubjectRepository.scala" statement-count="49" statements-invoked="27" statement-rate="55.10" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectTable/*" statement-count="16" statements-invoked="16" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="780" end="786" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="775" end="829" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="799" end="812" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="775" end="795" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="775" end="829" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="776" end="778" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="788" end="794" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="814" end="828" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="*" start="796" end="796" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectTable/subject" statement-count="11" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="720" end="728" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="751" end="751" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="752" end="760" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="751" end="751" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="751" end="751" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="738" end="750" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="719" end="719" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="719" end="719" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="751" end="751" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="730" end="736" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="subject" start="709" end="761" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectTable/&lt;none&gt;" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="557" end="578" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="596" end="617" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="515" end="527" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="489" end="539" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="500" end="500" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="568" end="568" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="607" end="607" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="501" end="513" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="608" end="616" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="529" end="538" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="&lt;none&gt;" start="569" end="577" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentSubjectTable/student" statement-count="11" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="666" end="678" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="647" end="647" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="679" end="679" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="658" end="664" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="637" end="689" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="647" end="647" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="679" end="679" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="679" end="679" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="679" end="679" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="648" end="656" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentSubjectTable" class-type="Class" top-level-class="StudentSubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentSubjectRepository.scala" method="student" start="680" end="688" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SubjectTable" filename="com/knoldus/repo/SubjectRepository.scala" statement-count="22" statements-invoked="22" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/SubjectTable/&lt;none&gt;" statement-count="9" statements-invoked="9" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="463" end="473" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="382" end="428" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="462" end="462" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="404" end="416" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="393" end="393" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="475" end="499" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="394" end="402" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="448" end="500" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="&lt;none&gt;" start="418" end="427" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectTable/*" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="533" end="533" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="552" end="567" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="533" end="533" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="523" end="531" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="514" end="568" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="533" end="533" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="536" end="550" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="514" end="568" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="533" end="533" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="515" end="521" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="533" end="533" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="533" end="533" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectTable" class-type="Class" top-level-class="SubjectConf" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/SubjectRepository.scala" method="*" start="514" end="532" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="StudentRepository" filename="com/knoldus/repo/StudentRepository.scala" statement-count="33" statements-invoked="33" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/StudentRepository/insertStudent" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="834" end="860" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="796" end="905" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="851" end="859" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="850" end="850" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="811" end="899" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="811" end="823" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="850" end="850" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="insertStudent" start="865" end="899" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentRepository/updateStudent" statement-count="14" statements-invoked="14" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1194" end="1196" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1242" end="1275" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1179" end="1196" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1179" end="1189" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1160" end="1160" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1204" end="1216" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1151" end="1216" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1194" end="1194" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1190" end="1190" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1190" end="1190" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1282" end="1302" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1163" end="1163" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1183" end="1183" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="updateStudent" start="1160" end="1160" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentRepository/deleteStudent" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1011" end="1011" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="982" end="1018" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1015" end="1015" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1004" end="1004" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1030" end="1051" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1011" end="1011" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1001" end="1001" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1002" end="1010" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="982" end="1025" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1015" end="1017" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentRepository" class-type="Trait" top-level-class="StudentRepository" source="/home/akash/Play Projects/Slick_Student_Akash/src/main/scala/com/knoldus/repo/StudentRepository.scala" method="deleteStudent" start="1002" end="1017" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
